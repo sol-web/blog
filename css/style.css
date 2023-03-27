@@ -6,9 +6,13 @@ body {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   margin: auto;
   overflow: hidden;
+}
+
+.container2 {
+  border-radius: 25px;
 }
 
 ul {
@@ -26,7 +30,7 @@ ul {
 
 /* Header  */
 header {
-  background-color: #35424a;
+  background-color: #182025;
   color: white;
   padding-top: 30px;
   min-height: 70px;
@@ -69,6 +73,12 @@ header a:hover {
   font-weight: bold;
 }
 
+.page-title {
+  color: white;
+  background-color: #ff6236;
+  padding: 10px;
+}
+
 /* Showcase */
 #showcase {
   min-height: 400px;
@@ -95,7 +105,7 @@ header a:hover {
 /* Newsletter */
 
 #newsletter {
-  background-color: #35424a;
+  background-color: #2a343a;
   padding: 15px;
   color: white;
 }
@@ -143,7 +153,7 @@ header a:hover {
 /* Sidebar */
 aside#sidebar {
   float: right;
-  width: 30%;
+  width: 27%;
   margin-top: 10px;
 }
 
